@@ -82,11 +82,11 @@ public class RookScissorPaper {
 			System.out.println("Ничья");
 
 		} else if (playerItem.isWin(botItem)) {
-			System.out.println(playerItem.getName() + " бъёт " + botItem.getName());
+			System.out.println(playerItem.getName() + " бьёт " + botItem.getName());
 			System.out.println("Ты выиграл!!!");
 
 		} else {
-			System.out.println(botItem.getName() + " бъёт " + playerItem.getName());
+			System.out.println(botItem.getName() + " бьёт " + playerItem.getName());
 			System.out.println("Ты проиграл программе");
 		}
 	}
